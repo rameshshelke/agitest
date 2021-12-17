@@ -6,7 +6,10 @@ I can resolve in the development branch itself and my master remains clean.
 (on branch development)$ git merge master
 (resolve any merge conflicts if there are any)
 git checkout master
-git merge development (there won't be any conflicts now)
+git merge development #(there won't be any conflicts now)
+## merges files in localhost. Master shouldn’t have any  commits ahead, 
+#otherwise there will be a need for pull and merging code by hands!
+git push
 
 If you want to keep track of who did the merge and when, 
 you can use --no-ff flag while merging to do so.

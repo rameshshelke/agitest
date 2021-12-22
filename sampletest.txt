@@ -1,5 +1,9 @@
 master to feature
 def testa():
 	print("inside a")
+	print("tempp adding"
+def mergingsathi():
+	print("inside merging")
+
 
 
